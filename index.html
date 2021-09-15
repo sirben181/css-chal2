@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a css challenge with a different approach</title>
+    </head>
+    <body>
+        <div class="circle1"></div>
+        <div class="same"></div>
+        <div class="triangle"></div>
+        <div class="handle"></div>
+        <style>
+            body{background:#191919;}
+            .handle{background:#5DBCF9;
+            height:40px;
+        width:60px;
+    border-radius:8px;
+position:absolute;
+top:53.5%;
+left:40%;
+transform:translate(-50% 50%);}
+            .triangle{ width:0;
+                height:0;
+                border-left: 75px solid transparent;
+                border-right:80px solid transparent;
+                border-bottom:100px solid #5DBCF9;
+                transform:rotate(-90deg);
+                position:absolute;
+                top:304px;
+                left:540px;
+            }
+            .same{background:#191919;
+            width:100px;
+        height:200px;
+    position:absolute;
+top:40%;
+left:43%;}
+          .circle1{background:#191919;
+        width:40px;
+    height:40px;
+border-radius:50%;
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%, 50%);
+box-shadow: 
+0 0 0 10px #191919,
+0 0 0 20px #5DBCF9,
+0 0 0 30px #191919,
+0 0 0 40px #5DBCF9,
+0 0 0 50px #191919,
+0 0 0 60px  #5DBCF9;
+}
+        </style>
+    </body>
+</html>
